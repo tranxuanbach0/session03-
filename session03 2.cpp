@@ -1,23 +1,15 @@
-#include <stdio.h>
+#include <stdio.h>#include <stdio.h>
 
-int main(){
-  float r, chuVi, dienTich;
-    const float PI = 3.14159;
+int main() {
+    float celsius, fahrenheit;
 
-    printf("Nhap ban kinh hinh tron (r): ");
-    scanf("%f", &r);
+    printf("Nhap nhiet do Celsius: ");
+    scanf("%f", &celsius);
 
-    chuVi = 2 * PI * r;
-    dienTich = PI * r * r;
+    fahrenheit = (celsius * 9 / 5) + 32;
 
-    printf("Chu vi hinh tron: %.2f\n", chuVi);
-    printf("Dien tich hinh tron: %.2f\n", dienTich);
+    printf("Nhiet do Fahrenheit: %.2f\n", fahrenheit);
 
     return 0;
 }
-
-
-
-
-
-
+    
