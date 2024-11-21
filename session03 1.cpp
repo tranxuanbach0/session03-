@@ -5,7 +5,7 @@ int main(){
 	
 	printf("nhap ten cua ban: ");
 	scanf("%s", name);
-    printf("Xin chao %s!\n", name);
+    printf("Xin chao %s\n", name);
 
 	 return 0;
 } 
