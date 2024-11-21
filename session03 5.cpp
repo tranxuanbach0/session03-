@@ -1,15 +1,12 @@
-#include <stdio.h>#include <stdio.h>
+#include <stdio.h>
 
 int main() {
-    float celsius, fahrenheit;
-
-    printf("Nhap nhiet do Celsius: ");
-    scanf("%f", &celsius);
-
-    fahrenheit = (celsius * 9 / 5) + 32;
-
-    printf("Nhiet do Fahrenheit: %.2f\n", fahrenheit);
+    printf("DANH SACH SINH VIEN\n");
+    printf("-------------------------------------------------------------------------------\n");
+    printf("| STT | Ho va ten       | Tuoi | So dien thoai | Email                        |\n");
+    printf("-------------------------------------------------------------------------------\n");
+    printf("|  1  | Nguyen Van A    |  20  | 0904488481    | anv@rikkeiacademy.com        |\n");
+    printf("-------------------------------------------------------------------------------\n");
 
     return 0;
 }
-    
